@@ -83,6 +83,7 @@ int main(void)
     printf("Hora: %d:%d:%d\n", p->tm_hour, p->tm_min, p->tm_sec);
 
     printf("\nGeral: %s\n", ctime(&seconds));
+    printf("\nGeral: %s\n", ctime(&seconds));
 
     return 0;
 }*/
